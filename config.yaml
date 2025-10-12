@@ -1,0 +1,17 @@
+model:
+  input_dim: 77
+  hidden_dim: 128
+  num_layers: 2
+  dropout: 0.3
+  num_classes: 2
+
+training:
+  epochs: 50
+  batch_size: 128
+  lr: 0.001
+  device: "cpu"
+
+data:
+  train_csv: "data/processed/final_features.csv"
+  val_csv: "data/processed/val_features.csv"
+  test_csv: "data/processed/test_features.csv"
