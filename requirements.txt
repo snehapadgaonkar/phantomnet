@@ -1,0 +1,11 @@
+flask
+pandas
+numpy
+scikit-learn
+pyyaml
+torch
+tqdm
+python-dotenv
+pyinstaller
+gunicorn
+kaggle
